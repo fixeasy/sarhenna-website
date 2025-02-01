@@ -27,7 +27,7 @@ export const Navigation: React.FC = () => {
           </a>
 
           <div className="hidden md:flex space-x-8">
-            {['Services', 'Bougies', 'Histoire', 'Contact'].map((item) => (
+            {['Services', 'Candles', 'Story', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -54,7 +54,7 @@ export const Navigation: React.FC = () => {
 
         {isOpen && (
           <div className="md:hidden bg-white">
-            {['Services', 'Bougies', 'Histoire', 'Contact'].map((item) => (
+            {['Services', 'Candles', 'Story', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
