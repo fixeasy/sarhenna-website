@@ -2,9 +2,9 @@ import React from 'react';
 import { candles } from '../data';
 import { Instagram } from 'lucide-react';
 
-export const Candles: React.FC = () => {
+export const Bougies: React.FC = () => {
   return (
-    <section id="candles" className="py-20">
+    <section id="bougies" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-[#42312B] mb-12">Bougies Artisanales</h2>
         
@@ -14,7 +14,7 @@ export const Candles: React.FC = () => {
               <img 
                 src={candle.image} 
                 alt={candle.name}
-                className="w-full h-64 object-cover"
+                className="w-full h-128 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{candle.name}</h3>

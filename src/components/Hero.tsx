@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url(https://cdn.pixabay.com/video/2020/08/20/47678-451695697_tiny.jpg)',
+          backgroundImage: 'url(https://knot9prod.s3.amazonaws.com/thumbnails/327013/hover_327013033.jpg)',
         }}
       >
         <div className="absolute inset-0 bg-black/50" />

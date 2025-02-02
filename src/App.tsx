@@ -2,8 +2,8 @@ import React from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
-import { Candles } from './components/Candles';
-import { Story } from './components/Story';
+import { Bougies } from './components/Candles';
+import { Histoire } from './components/Story';
 import { Contact } from './components/Contact';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       <Navigation />
       <Hero />
       <Services />
-      <Candles />
-      <Story />
+      <Bougies />
+      <Histoire />
       <Contact />
     </div>
   );

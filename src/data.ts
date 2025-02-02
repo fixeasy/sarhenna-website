@@ -3,9 +3,9 @@ import image1 from '@/assets/images/henne-charge-1.png';
 import image2 from '@/assets/images/henne-moyen-1.png';
 import image3 from '@/assets/images/henne-moyen-2.png';
 
-import bougie1 from '@/assets/images/bougies/bougie-1.webp';
-import bougie2 from '@/assets/images/bougies/bougie-1.webp';
-import bougie3 from '@/assets/images/bougies/bougie-1.webp';
+import bougie1 from '@/assets/images/bougies/bougie-1.png';
+import bougie2 from '@/assets/images/bougies/coming-soon.avif';
+import bougie3 from '@/assets/images/bougies/coming-soon.avif';
 
 export const hennaServices: Service[] = [
   {

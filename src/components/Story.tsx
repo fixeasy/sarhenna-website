@@ -1,9 +1,9 @@
 import React from 'react';
-import image from '@/assets/images/histoire-640x640.jpg';
+import image from '@/assets/images/histoire.webp';
 
-export const Story: React.FC = () => {
+export const Histoire: React.FC = () => {
   return (
-    <section id="story" className="py-20 bg-[#42312B] text-white">
+    <section id="histoire" className="py-20 bg-[#42312B] text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Notre Histoire</h2>
         
