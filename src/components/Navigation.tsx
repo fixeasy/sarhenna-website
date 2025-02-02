@@ -23,11 +23,11 @@ export const Navigation: React.FC = () => {
           <a href="#" className={`font-bold text-2xl ${
             isScrolled ? 'text-[#42312B]' : 'text-white'
           }`}>
-            Sarhenna
+            Sarahenna
           </a>
 
           <div className="hidden md:flex space-x-8">
-            {['Services', 'Candles', 'Story', 'Contact'].map((item) => (
+            {['Services', 'Bougies', 'Histoire', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -54,7 +54,7 @@ export const Navigation: React.FC = () => {
 
         {isOpen && (
           <div className="md:hidden bg-white">
-            {['Services', 'Candles', 'Story', 'Contact'].map((item) => (
+            {['Services', 'Bougies', 'Histoire', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}

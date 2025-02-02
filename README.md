@@ -1,4 +1,4 @@
-# sarhenna-website
+# Sarahenna-website
 
 ```
 npm install gh-pages

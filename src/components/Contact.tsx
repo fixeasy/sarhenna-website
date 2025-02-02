@@ -13,13 +13,13 @@ export const Contact: React.FC = () => {
               <h3 className="text-2xl font-semibold mb-6">Restons en Contact</h3>
               <div className="space-y-4">
                 <a
-                  href="https://www.instagram.com/sarhenna69"
+                  href="https://www.instagram.com/sarahenna69"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-lg hover:text-[#A18C85] transition-colors"
                 >
                   <Instagram size={24} />
-                  @sarhenna69
+                  @Sarahenna69
                 </a>
                 <div className="flex items-center gap-3 text-lg">
                   <MapPin size={24} />

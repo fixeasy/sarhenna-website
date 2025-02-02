@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '@/assets/images/histoire-640x640.jpg';
 
 export const Story: React.FC = () => {
   return (
@@ -7,12 +8,18 @@ export const Story: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-12">Notre Histoire</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="bg-[#A18C85] h-96 rounded-lg shadow-xl" />
+          <div>
+            <img 
+              src={image}
+              alt="Notre atelier"
+              className="rounded-lg shadow-xl"
+            />
+          </div>
           
           <div>
             <h3 className="text-2xl font-semibold mb-4">L'Art du Henné Traditionnel</h3>
             <p className="text-lg mb-6">
-              Sarhenna est né d'une passion pour l'art ancestral du henné et le désir de partager 
+              Sarahenna est né d'une passion pour l'art ancestral du henné et le désir de partager 
               cette tradition millénaire. Chaque motif est créé à la main avec des produits naturels, 
               perpétuant un savoir-faire transmis de génération en génération.
             </p>

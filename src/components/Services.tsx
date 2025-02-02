@@ -11,7 +11,11 @@ export const Services: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {hennaServices.map((service) => (
             <div key={service.id} className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
-              <div className="w-full h-64 bg-[#A18C85]" />
+              <img 
+                src={service.image}
+                alt={service.name}
+                className="w-full h-128 object-cover"
+              />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{service.name}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
@@ -23,7 +27,7 @@ export const Services: React.FC = () => {
 
         <div className="text-center">
           <a
-            href="https://www.instagram.com/sarhenna69"
+            href="https://www.instagram.com/sarahenna69"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#A18C85] hover:bg-[#42312B] text-white px-8 py-3 rounded-full transition-colors"
